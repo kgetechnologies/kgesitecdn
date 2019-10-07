@@ -2,7 +2,7 @@
 /* === prettify === */
 @import url('https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/master/frontEnd/js/google-code-prettify/prettify.css');
 /* === fontawesome === */
-@import url('https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/master/frontEnd/css/font-awesome.css');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css');
 /* ==== overwrite bootstrap standard ==== */
 @import url('https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/master/frontEnd/css/overwrite.css');
 @import url('https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/master/frontEnd/css/animate.css');
