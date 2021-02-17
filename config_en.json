@@ -39,15 +39,8 @@
           "padding": 15.0
         }
       ]
-    },  
-   
-    {
-      "layout" : "sliderList",
-      "type" :"imageOnTheRight",
-      "name": "Recent Blog",
-      "category": 31,
-      "imageBorder": 20
-    },
+    },    
+  
     {
       "layout" : "sliderItem",
 
