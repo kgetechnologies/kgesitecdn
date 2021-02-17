@@ -1,102 +1,98 @@
 {
-  "HorizonLayout": [
-    {
-      "layout": "logo",
-      "showLogo": true,
-      "showMenu": true,
-      "showSearch": false
-    },
-    {
-      "layout" : "header_text",
-      "padding": 20.0,
-      "fontSize": 30.0,
-      "isSafeArea": false,
-      "title" : "Explore Sitecore in Depth"
-    },
-
-    {
-      "layout": "bannerImage",
-      "isSlider": true,
-      "design": "default",
-      "showBackGround": true,
-      "radius": 2.0,
-
-      "items": [
-        {
-          "category": 40,
-          "image": "https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/Images/Banner.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-          "padding": 10.0
-
-        },
-        {
-          "category": 41,
-          "image": "https://images.unsplash.com/photo-1496318447583-f524534e9ce1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-          "padding": 15.0
-        },
-        {
-          "category": 31,
-          "image": "https://images.unsplash.com/photo-1558920558-fb0345e52561?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
-          "padding": 15.0
-        }
-      ]
-    }
-  ],
-  "Setting": {
-    "MainColor": "#3FC1BE",
-    "ProductListLayout": "list"
-  },
-  "TabBar": [
-    {
-      "layout": "home",
-      "icon": "assets/icons/tabs/icon-home.png"
-    },
-    {
-      "layout": "category",
-      "categoryLayout": "card",
-      "icon": "assets/icons/tabs/icon-category.png"
-    },
-    {
-      "layout": "search",
-      "icon": "assets/icons/tabs/icon-search.png"
-    },
-    {
-      "layout": "wishlist",
-      "icon": "assets/icons/tabs/icon-heartthin.png"
-    },
-    {
-      "layout": "profile",
-      "icon": "assets/icons/tabs/icon-user.png"
-    }
-  ],
-  "VerticalLayout":{
-    "name":"Explore more",
-    "layout":"list"
-  },
-  "SplashScreen": {
-    "type": "animated",
-    "data" : "assets/images/splashscreen.png"
-  },
-  "OnBoarding": {
-    "layout": "",
-    "data": [
-      {
-        "title": "Welcome to Sitecore Tutor",
-        "image": "assets/images/fogg-delivery-1.png",
-        "desc": "One Stop for all Sitecore Learning. ",
-        "background": "#FFF3F2"
-      },
-      {
-        "title": "Connect Surrounding World",
-        "image": "assets/images/fogg-uploading-1.png",
-        "desc": "See all things happening around you just by a click in your phone. Fast, convenient and clean.",
-        "background": "#F2FFFC"
-      },
-      {
-        "title": "Let's Get Started",
-        "image": "assets/images/fogg-order-completed.png",
-        "desc": "Waiting no more, let's see what we get!",
-        "background": "#F9F2FF"
-      }
-    ]
-  }
+"HorizonLayout":[
+{
+"layout":"logo",
+"showLogo":true,
+"showMenu":true,
+"showSearch":false
+},
+{
+"title":"Let's Explore Sitecore",
+"isSafeArea":true,
+"showSearch":false,
+"padding":14.0,
+"height":0.14,
+"fontSize":35.0,
+"layout":"header_text"
+},
+{
+"layout":"bannerImage",
+"isSlider":false,
+"items":[]
 }
+],
+"Setting":{
+"MainColor":"#E53935",
+"ProductListLayout":"list",
+"StickyHeader":true
+},
+"TabBar":[
+{
+"layout":"home",
+"icon":"assets/icons/tabs/icon-home.png",
+"pos":100
+},
+{
+"layout":"search",
+"categoryLayout":"card",
+"icon":"assets/icons/tabs/icon-category.png",
+"pos":200,
+"showChat":true
+},
+{
+"layout":"search",
+"icon":"assets/icons/tabs/icon-search.png",
+"pos":300
+},
+{
+"layout":"wishlist",
+"icon":"assets/icons/tabs/icon-heartthin.png",
+"pos":400
+},
+{
+"layout":"profile",
+"icon":"assets/icons/tabs/icon-user.png",
+"pos":500,
+"showChat":true,
+"settings":["wishlist",
+"post",
+"notifications",
+"darkTheme",
+"privacy",
+"about"],
+"background":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/Images/Banner.jpg"
+}
+],
+"Drawer":{
+"logo":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/Images/Logo.png",
+"items":[
+{
+"type":"home",
+"show":true
+},
+{
+"type":"web",
+"show":false
+},
+{
+"type":"about",
+"show":true
+},
+{
+"type":"login",
+"show":true
+},
+{
+"type":"category",
+"show":true
+}
+]
+},
+"VerticalLayout":{
+"key":"bo7i1g1v2s",
+"layout":"list",
+"name":"Latest Post"
+},
+"SplashScreen":{
+"type":"animated",
+"data":"assets/images/splashscreen.png"}}
