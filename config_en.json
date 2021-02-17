@@ -33,11 +33,24 @@
 "pos":100
 },
 {
-"layout":"search",
-"categoryLayout":"card",
+"layout":"category",
+"categoryLayout":"subCategories",
 "icon":"assets/icons/tabs/icon-category.png",
 "pos":200,
-"showChat":true
+"showChat":true,
+"pageId":18,
+"pageTitle":"Post Screen",
+"data":"",
+"url":"https://inspireui.com",
+"title":"",
+"categories":["5",
+"1",
+"2",
+"3"],
+"images":["briefcase",
+"chrome",
+"download",
+"compass"]
 },
 {
 "layout":"search",
@@ -55,7 +68,6 @@
 "pos":500,
 "showChat":true,
 "settings":["wishlist",
-"post",
 "notifications",
 "darkTheme",
 "privacy",
