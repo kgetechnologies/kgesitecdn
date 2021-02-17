@@ -40,14 +40,7 @@
         }
       ]
     },    
-  
-    {
-      "layout" : "sliderItem",
-
-          "name": "Recent Blogs",
-          "category": 40
-        },
-
+   
     {
       "name": "Food For Kids",
       "image": "",
