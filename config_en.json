@@ -39,34 +39,7 @@
           "padding": 15.0
         }
       ]
-    },    
-   
-    {
-      "name": "Food For Kids",
-      "image": "",
-      "layout": "card",
-      "category": 31
-    },
-    {
-      "name": "Healthy Foods",
-      "image": "",
-      "layout": "twoColumn",
-      "category": 31
-    },
-    {
-      "name": "Sweetie Sweet Sweet",
-      "image": "",
-      "layout": "fourColumn",
-      "category": 31
-    },
-    {
-      "name": "Community Sharing",
-      "image": "",
-      "layout": "staggered",
-      "category": 31
     }
-
-
   ],
   "Setting": {
     "MainColor": "#3FC1BE",
