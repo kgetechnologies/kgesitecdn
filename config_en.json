@@ -11,7 +11,7 @@
       "padding": 20.0,
       "fontSize": 30.0,
       "isSafeArea": false,
-      "title" : "Explore daily recipe within a tap"
+      "title" : "Explore Sitecore in Depth"
     },
 
     {
@@ -45,7 +45,7 @@
       "layout" : "largeCardHorizontalListItems",
       "imageBorder": 20,
       "category": 41,
-      "name": "Popular dishes"
+      "name": "Popular Blogs"
     },
     {
       "layout" : "sliderList",
@@ -63,7 +63,7 @@
     {
       "layout" : "sliderItem",
 
-          "name": "Recent Recipe",
+          "name": "Recent Blogs",
           "category": 40
         },
 
@@ -133,9 +133,9 @@
     "layout": "",
     "data": [
       {
-        "title": "Welcome to FluxNews",
+        "title": "Welcome to Sitecore Tutor",
         "image": "assets/images/fogg-delivery-1.png",
-        "desc": "FluxNews is on the way to serve you. ",
+        "desc": "One Stop for all Sitecore Learning. ",
         "background": "#FFF3F2"
       },
       {
