@@ -2,17 +2,22 @@
 "HorizonLayout":[
 {
 "layout":"logo",
-"showLogo":true,
 "showMenu":true,
-"showSearch":false
+"showSearch":false,
+"showLogo":true,
+"image":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/Images/icon.png",
+"name":"Sitecore Academy"
 },
 {
-"title":"Let's Explore Sitecore",
 "isSafeArea":true,
 "showSearch":false,
-"padding":14.0,
+"rotate":["Lets",
+"Lets Explore",
+"Lets Explore Sitecore"],
+"type":"typewriter",
 "height":0.14,
-"fontSize":35.0,
+"padding":14.0,
+"fontSize":32.0,
 "layout":"header_text"
 },
 {
