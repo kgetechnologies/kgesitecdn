@@ -34,7 +34,7 @@
 },
 {
 "layout":"category",
-"categoryLayout":"subCategories",
+"categoryLayout":"animation",
 "icon":"assets/icons/tabs/icon-category.png",
 "pos":200,
 "showChat":true,
@@ -60,7 +60,8 @@
 {
 "layout":"wishlist",
 "icon":"assets/icons/tabs/icon-heartthin.png",
-"pos":400
+"pos":400,
+"showChat":true
 },
 {
 "layout":"profile",
