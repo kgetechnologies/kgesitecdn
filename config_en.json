@@ -41,12 +41,7 @@
       ]
     },
 
-    {
-      "layout" : "largeCardHorizontalListItems",
-      "imageBorder": 20,
-      "category": 41,
-      "name": "Popular Blogs"
-    },
+   
     {
       "layout" : "sliderList",
       "type" :"",
