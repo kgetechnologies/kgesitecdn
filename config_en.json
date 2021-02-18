@@ -9,21 +9,25 @@
 "name":"Sitecore Academy"
 },
 {
+"title":"    Lets Learn Sitecore",
 "isSafeArea":true,
 "showSearch":false,
-"rotate":["Lets",
-"Lets Explore",
-"Lets Explore Sitecore"],
-"type":"typewriter",
-"height":0.14,
-"padding":14.0,
-"fontSize":32.0,
+"padding":10.0,
+"height":0.08,
+"fontSize":28.0,
 "layout":"header_text"
 },
 {
 "layout":"bannerImage",
 "isSlider":false,
-"items":[]
+"items":[
+{
+"image":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/Images/Banner.jpg",
+"padding":9.6,
+"category":1,
+"radius":0.6
+}
+]
 }
 ],
 "Setting":{
@@ -82,7 +86,7 @@
 }
 ],
 "Drawer":{
-"logo":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/Images/Logo.png",
+"logo":"assets/images/logo.png",
 "items":[
 {
 "type":"home",
@@ -90,7 +94,7 @@
 },
 {
 "type":"web",
-"show":false
+"show":true
 },
 {
 "type":"about",
