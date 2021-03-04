@@ -86,7 +86,7 @@
 }
 ],
 "Drawer":{
-"logo":"assets/images/logo.png",
+"logo":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/Images/logo.png",
 "items":[
 {
 "type":"home",
@@ -117,4 +117,4 @@
 },
 "SplashScreen":{
 "type":"animated",
-"data":"assets/images/splashscreen.png"}}
+"data":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/Images/splashscreen.png"}}
