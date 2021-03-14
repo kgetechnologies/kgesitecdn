@@ -1,120 +1,120 @@
 {
-"HorizonLayout":[
-{
-"layout":"logo",
-"showMenu":true,
-"showSearch":false,
-"showLogo":true,
-"image":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/Images/icon.png",
-"name":"Sitecore Academy"
-},
-{
-"title":"    Lets Learn Sitecore",
-"isSafeArea":true,
-"showSearch":false,
-"padding":10.0,
-"height":0.08,
-"fontSize":28.0,
-"layout":"header_text"
-},
-{
-"layout":"bannerImage",
-"isSlider":false,
-"items":[
-{
-"image":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/Images/Banner.jpg",
-"padding":9.6,
-"category":1,
-"radius":0.6
-}
-]
-}
-],
-"Setting":{
-"MainColor":"#E53935",
-"ProductListLayout":"list",
-"StickyHeader":true
-},
-"TabBar":[
-{
-"layout":"home",
-"icon":"assets/icons/tabs/icon-home.png",
-"pos":100
-},
-{
-"layout":"category",
-"categoryLayout":"animation",
-"icon":"assets/icons/tabs/icon-category.png",
-"pos":200,
-"showChat":true,
-"pageId":18,
-"pageTitle":"Post Screen",
-"data":"",
-"url":"https://inspireui.com",
-"title":"",
-"categories":["5",
-"1",
-"2",
-"3"],
-"images":["briefcase",
-"chrome",
-"download",
-"compass"]
-},
-{
-"layout":"search",
-"icon":"assets/icons/tabs/icon-search.png",
-"pos":300
-},
-{
-"layout":"wishlist",
-"icon":"assets/icons/tabs/icon-heartthin.png",
-"pos":400,
-"showChat":true
-},
-{
-"layout":"profile",
-"icon":"assets/icons/tabs/icon-user.png",
-"pos":500,
-"showChat":true,
-"settings":["wishlist",
-"notifications",
-"darkTheme",
-"privacy",
-"about"],
-"background":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/Images/Banner.jpg"
-}
-],
-"Drawer":{
-"logo":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/Images/logo.png",
-"items":[
-{
-"type":"home",
-"show":true
-},
-{
-"type":"web",
-"show":true
-},
-{
-"type":"about",
-"show":true
-},
-{
-"type":"login",
-"show":true
-},
-{
-"type":"category",
-"show":true
-}
-]
-},
-"VerticalLayout":{
-"key":"bo7i1g1v2s",
-"layout":"list",
-"name":"Latest Post"
-},
-"SplashScreen":{
-"type":"animated",
-"data":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/Images/splashscreen.png"}}
+  "HorizonLayout":[
+    {
+      "layout":"logo",
+      "showMenu":true,
+      "showSearch":false,
+      "showLogo":true,
+      "image":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/Images/icon.png",
+      "name":"Sitecore Academy"
+    },
+    {
+      "title":"    Lets Learn Sitecore",
+      "isSafeArea":true,
+      "showSearch":false,
+      "padding":10.0,
+      "height":0.08,
+      "fontSize":28.0,
+      "layout":"header_text"
+    },
+    {
+      "layout":"bannerImage",
+      "isSlider":false,
+      "items":[
+        {
+          "image":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/Images/Banner.jpg",
+          "padding":9.6,
+          "category":1,
+          "radius":0.6
+        }
+      ]
+    }
+  ],
+  "Setting":{
+    "MainColor":"#E53935",
+    "ProductListLayout":"list",
+    "StickyHeader":true
+  },
+  "TabBar":[
+    {
+      "layout":"home",
+      "icon":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/icons/tabs/icon-home.png",
+      "pos":100
+    },
+    {
+      "layout":"category",
+      "categoryLayout":"animation",
+      "icon":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/icons/tabs/icon-category.png",
+      "pos":200,
+      "showChat":true,
+      "pageId":18,
+      "pageTitle":"Post Screen",
+      "data":"",
+      "url":"https://inspireui.com",
+      "title":"",
+      "categories":["5",
+        "1",
+        "2",
+        "3"],
+      "images":["briefcase",
+        "chrome",
+        "download",
+        "compass"]
+    },
+    {
+      "layout":"search",
+      "icon":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/icons/tabs/icon-search.png",
+      "pos":300
+    },
+    {
+      "layout":"wishlist",
+      "icon":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/icons/tabs/icon-heartthin.png",
+      "pos":400,
+      "showChat":true
+    },
+    {
+      "layout":"profile",
+      "icon":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/icons/tabs/icon-user.png",
+      "pos":500,
+      "showChat":true,
+      "settings":["wishlist",
+        "notifications",
+        "darkTheme",
+        "privacy",
+        "about"],
+      "background":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/Images/Banner.jpg"
+    }
+  ],
+  "Drawer":{
+    "logo":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/Images/logo.png",
+    "items":[
+      {
+        "type":"home",
+        "show":true
+      },
+      {
+        "type":"web",
+        "show":true
+      },
+      {
+        "type":"about",
+        "show":true
+      },
+      {
+        "type":"login",
+        "show":true
+      },
+      {
+        "type":"category",
+        "show":true
+      }
+    ]
+  },
+  "VerticalLayout":{
+    "key":"bo7i1g1v2s",
+    "layout":"list",
+    "name":"Latest Post"
+  },
+  "SplashScreen":{
+    "type":"animated",
+    "data":"https://raw.githubusercontent.com/kgetechnologies/kgesitecdn/SitecoreTutor/Images/splashscreen.png"}}
